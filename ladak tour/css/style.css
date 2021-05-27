@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+/*-------top navigation----*/
+
+.navbar-brand img
+{
+height: 80px;
+width: 80px;
+border-radius: 50%;
+margin: 0 50px;
+}
+.d-flex{
+    column-gap: 10px;
+    margin: 0 50px;
+}
+.d-flex .fab:hover{
+    color: #f85f5f;
+
+}
+.d-flex a{
+    cursor: pointer;
+    color: rgb(65, 63, 63);
+
+}
+.navbar-nav{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.container{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(95, 82, 82, 0.8)),url(../img/pic\ 2.jfif);
+    max-width: 100%;
+    height: 70vh;
+    background-position: top;
+    background-size: cover;
+}
+.wrap-text h1{
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'RocknRoll One', sans-serif;
+    padding-top: 150px; 
+    letter-spacing: 10px;  
+}
+.wrap-text span{
+    color:rgb(219, 57, 70); 
+}
+h3{
+    padding-top: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'RocknRoll One', sans-serif;
+    letter-spacing: 5px;
+}
+#about
+{
+    text-align:left;
+    padding:30px;
+    margin:0 50px;
+    text-transform: capitalize;
+    color: rgb(219, 57, 70);
+}
+#about .lead{
+    color: rgb(219, 57, 70);
+}
+/*--js--*/
+#more
+{
+    display:none;
+    color: rgb(95, 95, 95);
+}
+#visit
+{
+
+    background-color: rgb(58, 57, 57);
+    color: #fff;
+    padding: 30px;
+    display:flex;
+    justify-content:space-evenly;
+    text-align: center;
+    column-gap: 50px;
+}
+#visit span{
+    padding: 10px;   
+}
+
+/*----explore ladakh--*/
+
+#places{
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+#places img{
+    max-width: 100%;
+    height:30vh;
+    cursor: pointer;
+}
+#places a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-success{
+    float: right;
+}
+#places .btn-outline-danger a:hover{
+    color:#fff;
+}
+#places .btn-outline-danger a{
+    color: rgb(248, 52, 52);
+}
+/*---best time to visit---*/
+
+#time{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    padding:15px;
+    margin: 0 50px;
+    text-transform: capitalize;
+}
+.row{
+    margin: 0 50px;
+}
+#time .card{
+    border-radius: 30px 0;
+    border:1px solid black;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.card-title{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+h5{
+    color: rgb(219, 57, 70);
+}
+p{
+    color: rgb(121, 121, 121);
+}
+.fas{
+    color:#fff;
+}
+
+/*leh page style*/
+#leh{
+    background-image: url(https://images.unsplash.com/photo-1505585310466-e79c7e18a05b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1075&q=80);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center; 
+}
+#leh h1{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+.text{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+#tour h1{
+    padding:20px;
+    text-transform:capitalize;
+    font-family:'Inter', sans-serif;
+    letter-spacing: normal; 
+    font-weight:600;
+}
+#tour a {
+    text-decoration: none;
+    color: #fff;
+}
+.card-img-top{
+    width: 100%;
+    height:35vh;
+}
+
+/*----nubra page style----*/
+
+#nubra{
+    background-image: linear-gradient(rgba(29, 25, 25, 0.8),rgba(122, 117, 117, 0.8)),url(https://cdn.audleytravel.com/1050/749/79/1332595-nubra-valley.webp);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center; 
+}
+#nubra h1{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+
+/*----zanskar page style----*/
+
+#zanskar{
+     background-image: linear-gradient(rgba(29, 25, 25, 0.8),rgba(122, 117, 117, 0.8)),url(https://devilonwheels.com/wp-content/uploads/2016/12/Zanskar-Suru-282-1.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center; 
+}
+#zanskar h1{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+
+/*----kargil page style-----*/
+
+#kargil{
+    background-image: linear-gradient(rgba(29, 25, 25, 0.8),rgba(122, 117, 117, 0.8)),url(https://dynamic.tourtravelworld.com/package-images/photo-big/dir_14/390437/100884.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center; 
+}
+#kargil h1{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+/*----drass page style-----*/
+
+#drass{
+    background-image: linear-gradient(rgba(29, 25, 25, 0.8),rgba(122, 117, 117, 0.8)),url(https://www.tourmyindia.com/socialimg/drass-tourism.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: bottom; 
+}
+#drass h1{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+
+/*---information of all palces in leh style---*/
+#info h1{
+    padding: 20px;
+    text-transform: capitalize;
+    line-height: normal;
+}
+.head{
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 500;
+    color: rgb(241, 87, 87);
+}
+#info img{
+    width: 100%;
+    height:80%;
+}
+p{
+    text-align: justify;
+    padding: 5px;
+}
+.list li{
+    padding: 5px;
+    color: rgb(121, 121, 121);
+}
+::marker {
+    color: rgb(241, 87, 87);
+
+}
+/*reach to ladakh*/
+#reach{
+    background-color: rgb(43, 42, 42);
+    padding: 20px;
+}
+#reach h2{
+    color: rgb(241, 87, 87);
+}
+#info .btn-primary a{
+    text-decoration: none;
+    color: #fff;
+   
+    
+}
+/* Subscribe Box */
+#subscribe-css{
+    position:relative;
+    padding:20px 0;
+    background:#101214;
+    overflow:hidden;
+    border-top:4px solid #eee;}
+.subscribe-wrapper{
+    color:#fff;
+    font-size:16px;
+    line-height:normal;
+    margin:0;
+    text-align:center;
+    text-transform:
+    none;
+    font-weight:400;
+    width:100%
+}
+.subscribe-form{
+    clear:both;
+    display:block;
+    overflow:hidden
+}
+form.subscribe-form{
+    clear:both;
+    display:block;
+    margin:0;
+    width:auto;
+    overflow:hidden
+}
+.subscribe-css-email-field{
+    background:#06080a;
+    color:#ccc;
+    margin:10px 0;
+    padding:15px 20px;
+    width:35%;
+    border:0
+}
+.subscribe-css-email-button{
+    background:#3cc091;
+    color:#fff;
+    cursor:pointer;
+    font-weight:700;
+    padding:14px 30px;
+    margin-left:15px;
+    text-transform:none;
+    font-size:16px;
+    border:0;
+    border-radius:3px;
+    transition:all .6s
+}
+.subscribe-css-email-button:hover{
+    background:#37b185;
+}
+#subscribe-css p.subscribe-note{
+    margin:16px;
+    text-align:center;
+    color:rgba(255,255,255,.6);
+    font-size:180%;
+    font-weight:400;
+    line-height:normal;
+}
+#subscribe-css p.subscribe-note span {
+    position:relative;
+    overflow:hidden;
+    font-weight:700;
+    transition:all .5s
+}
+#subscribe-css p.subscribe-note span.itatu {
+    font-weight:400;
+    font-style:italic;
+    color:rgba(255,255,255,.6);
+    text-transform:lowercase
+}
+#subscribe-css p.subscribe-note span.itatu:before,#subscribe-css p.subscribe-note span.itatu:after{
+    display:none
+}
+#subscribe-css p.subscribe-note span:before{
+    content:'';
+    position:absolute;
+    bottom:-2px;
+    left:0;
+    width:0;
+    height:3px;
+    margin:10px 0 0;
+    background:rgba(255,255,255,.1);
+    transition:all .5s
+}
+#subscribe-css:hover p.subscribe-note span:before{
+    width:100%;
+}
+/*---footer----*/
+    .site-footer
+    {
+      background-color:#26272b;
+      padding:45px 0 20px;
+      font-size:15px;
+      line-height:24px;
+      color:#737373;
+    }
+    .site-footer hr
+    {
+      border-top-color:#bbb;
+      opacity:0.5
+    }
+    .footer img
+    {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin:0 auto;
+    }
+    .site-footer hr.small
+    {
+      margin:20px 0
+    }
+    .site-footer h6
+    {
+      color:#fff;
+      font-size:20px;
+      text-transform:uppercase;
+      margin-top:5px;
+      margin-left:30px;
+      letter-spacing:2px
+    }
+    .site-footer a
+    {
+      color:#737373;
+    }
+    .site-footer a:hover
+    {
+      color:#3366cc;
+      text-decoration:none;
+    }
+    .footer-links
+    {
+      padding-left:20;
+      list-style:none
+    }
+    .footer-links li
+    {
+      display:block;
+    }
+    .footer-links a
+    {
+      text-decoration: none;
+      padding: 10px;
+      color:#737373;
+    }
+    .footer-links a:active,.footer-links a:focus,.footer-links a:hover
+    {
+      color:#fff;
+      text-decoration:none;
+    }
+    .footer-links.inline li
+    {
+      display:inline-block;
+    }
+    .site-footer .social-icons
+    {
+      text-align:right;
+    }
+    .footer .fab
+    {
+        color: #fff;
+    }
+    
+    .copyright-text
+    {
+      margin:0;
+      
+    }
+    .copyright-text p
+{
+    text-align: center;
+    color: #fff;
+    
+}
+.copyright-area {
+    padding-top: 8px;
+ padding-bottom: 8px;
+}
+
+    @media (max-width:991px)
+    {
+      .site-footer [class^=col-]
+      {
+        margin-bottom:30px
+      }
+    }
+    @media (max-width:767px)
+    {
+      .site-footer
+      {
+        padding-bottom:0
+      }
+      .site-footer .copyright-text,.site-footer .social-icons
+      {
+        text-align:center
+      }
+    }
+    
+    @media (max-width:767px)
+    {
+      .social-icons li.title
+      {
+        display:block;
+        margin-right:0;
+        font-weight:600
+      }
+    }
+
+
+
+
+
+
+
+/*-----add media queries responsive-----*/
+@media only screen and (max-width: 750px) {
+    .navbar-brand img{
+        margin:0 25px;
+        height: 60px;
+        width: 60px;
+    }
+    .d-flex {
+      margin: 0 30px;
+    }
+    .container{
+        height: 40vh;
+        }
+        .wrap-text h1{
+            padding-top:34px; 
+            letter-spacing: 8px;  
+        }
+        #visit span{
+            padding: 0;
+        }
+  }
+  @media only screen and (max-width:480px){
+  .navbar-brand img{
+    margin:0 25px;
+    height: 60px;
+    width: 60px;
+} 
+.d-flex {
+    margin: 0;
+  }
+  .container{
+    height: 40vh;
+    }
+    .wrap-text h1{
+        padding-top:10px; 
+        letter-spacing: 8px; 
+        font-size:; 
+    }
+
+  }
